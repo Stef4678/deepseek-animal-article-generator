@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# API keys and secrets
+.env.*
+*.key
+*.pem
+
+# Local input and generated content
+animals.txt
+articles/
+
+# Logs and temporary files
+*.log
+temp/
+tmp/
